@@ -7,8 +7,8 @@
 			"name": "KlumsyDB",
 			"save-password": true,
 			"configuration": {
-				"database": "C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\KlumsyDB",
-				"url": "jdbc:sqlite:C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\KlumsyDB",
+				"database": "C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\DB\\Klumsy.db",
+				"url": "jdbc:sqlite:C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\DB\\Klumsy.db",
 				"configurationType": "MANUAL",
 				"type": "test",
 				"closeIdleConnection": true,
