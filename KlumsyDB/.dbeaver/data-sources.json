@@ -1,35 +1,35 @@
 {
 	"folders": {},
 	"connections": {
-		"sqlite_jdbc-194e498d3c6-3b137e2db6b0cf77": {
+		"sqlite_jdbc-194e4ad9fae-12a0c5958602832": {
 			"provider": "sqlite",
 			"driver": "sqlite_jdbc",
-			"name": "Klumsy DB Connection",
+			"name": "KlumsyDB",
 			"save-password": true,
 			"configuration": {
-				"database": "C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\Klumsy DB Connection",
-				"url": "jdbc:sqlite:C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\Klumsy DB Connection",
+				"database": "C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\KlumsyDB",
+				"url": "jdbc:sqlite:C:\\Users\\natha\\git\\KlumsyDB\\KlumsyDB\\KlumsyDB",
 				"configurationType": "MANUAL",
-				"type": "dev",
+				"type": "test",
 				"closeIdleConnection": true,
 				"auth-model": "native"
 			}
 		}
 	},
 	"connection-types": {
-		"dev": {
-			"name": "Development",
-			"color": "255,255,255",
-			"description": "Regular development database",
+		"test": {
+			"name": "Test",
+			"color": "org.jkiss.dbeaver.color.connectionType.qa.background",
+			"description": "Test (QA) database",
 			"auto-commit": true,
 			"confirm-execute": false,
-			"confirm-data-change": false,
+			"confirm-data-change": true,
 			"smart-commit": false,
 			"smart-commit-recover": true,
 			"auto-close-transactions": true,
-			"close-transactions-period": 1800,
+			"close-transactions-period": 900,
 			"auto-close-connections": true,
-			"close-connections-period": 14400
+			"close-connections-period": 7200
 		}
 	}
 }
